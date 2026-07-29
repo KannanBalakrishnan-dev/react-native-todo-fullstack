@@ -154,7 +154,7 @@ npx react-native run-android
 ## 🎥 Demo Video
 Add your demo video link here:
 ```
-https://drive.google.com/...
+(https://drive.google.com/file/d/1_MrpAMAGIOWU4VXbyihH9B9_u129f4AW/view?usp=drive_link)
 ```
 
 ---
@@ -162,7 +162,7 @@ https://drive.google.com/...
 ## 📦 APK
 Download the APK:
 ```
-https://drive.google.com/...
+(https://drive.google.com/drive/folders/1Ob6YbG16eIAUfjnur9YO0Ep7SL_tJg1B?usp=drive_link)
 ```
 
 ---
@@ -172,8 +172,7 @@ https://drive.google.com/...
 **Kannan Balakrishnan**
 
 - GitHub: [KannanBalakrishnan-dev](https://github.com/KannanBalakrishnan-dev)
-- LinkedIn: _Add your LinkedIn URL_
-
+- LinkedIn:(https://www.linkedin.com/in/kannan-balakrishnan-409911282/)
 ---
 
 ## 📄 License
