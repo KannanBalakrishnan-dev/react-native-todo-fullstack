@@ -172,8 +172,7 @@ https://drive.google.com/...
 **Kannan Balakrishnan**
 
 - GitHub: [KannanBalakrishnan-dev](https://github.com/KannanBalakrishnan-dev)
-- LinkedIn: _Add your LinkedIn URL_
-
+- LinkedIn:(https://www.linkedin.com/in/kannan-balakrishnan-409911282/)
 ---
 
 ## 📄 License
