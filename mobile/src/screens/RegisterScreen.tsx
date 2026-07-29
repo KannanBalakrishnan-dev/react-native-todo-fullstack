@@ -24,33 +24,48 @@ const RegisterScreen = ({ navigation }: any) => {
   const [loading, setLoading] = useState(false);
 
   const handleRegister = async () => {
-    if (!name || !email || !password) {
-      Alert.alert('Error', 'Please fill all fields');
-      return;
-    }
+  if (!name.trim() || !email.trim() || !password.trim()) {
+    Alert.alert("Error", "Please fill all fields");
+    return;
+  }
 
-    setLoading(true);
-    try {
-      const res = await API.post('/auth/register', {
-        name,
-        email,
-        password,
-      });
+  setLoading(true);
 
-      // Auto-login right after successful registration.
-      // This updates AuthContext, which makes RootNavigator
-      // automatically switch from AuthNavigator to AppNavigator.
-      await login(res.data.token);
-    } catch (error: any) {
-      Alert.alert(
-        'Registration Failed',
-        error?.response?.data?.message || 'Something went wrong',
-      );
-    } finally {
-      setLoading(false);
-    }
-  };
+  try {
+    console.log("Register Request:", {
+      name,
+      email,
+      password,
+    });
 
+    const res = await API.post("/auth/register", {
+      name: name.trim(),
+      email: email.trim().toLowerCase(),
+      password,
+    });
+
+    console.log("Register Success:", res.data);
+
+    await login(res.data.token);
+  } catch (error: any) {
+    console.log("==================================");
+    console.log("REGISTER ERROR");
+    console.log("Message:", error.message);
+    console.log("Status:", error?.response?.status);
+    console.log("Data:", error?.response?.data);
+    console.log("Full Error:", error);
+    console.log("==================================");
+
+    Alert.alert(
+      "Registration Failed",
+      error?.response?.data?.message ||
+        error.message ||
+        "Something went wrong",
+    );
+  } finally {
+    setLoading(false);
+  }
+};
   return (
     <KeyboardAvoidingView
       style={{ flex: 1 }}
