@@ -2,6 +2,8 @@
 
 A modern full-stack Todo application built with **React Native**, **Node.js**, **Express.js**, and **MongoDB**. Register, log in, and manage your daily tasks with priorities, deadlines, and completion tracking — all wrapped in a clean, minimal UI.
 
+📄 **[View the full Project Completion Report (PDF)](Project_Completion_Report.pdf)** — architecture, features, deployment issues & fixes, and verification results.
+
 <p align="center">
   <img src="screenshots/tasks-list.png" width="220" alt="Tasks List" />
   <img src="screenshots/profile.png" width="220" alt="Profile" />
@@ -163,6 +165,14 @@ npx react-native run-android
 ## 📦 APK
 
 [Download the APK](https://drive.google.com/drive/folders/1Ob6YbG16eIAUfjnur9YO0Ep7SL_tJg1B?usp=drive_link)
+
+---
+
+## 📄 Project Completion Report
+
+A detailed PDF report covering architecture, delivered features, the deployment issues encountered and how each was resolved, and end-to-end verification results:
+
+[View Project_Completion_Report.pdf](Project_Completion_Report.pdf)
 
 ---
 
