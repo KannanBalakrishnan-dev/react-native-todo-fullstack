@@ -1,0 +1,6 @@
+mobile/node_modules
+backend/node_modules
+backend/.env
+mobile/android/.gradle
+mobile/android/app/build
+mobile/ios/build
