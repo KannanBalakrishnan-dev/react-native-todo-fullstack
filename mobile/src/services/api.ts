@@ -1,8 +1,10 @@
 import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
+const BASE_URL = 'https://todo-backend-y074.onrender.com/api';
+
 const API = axios.create({
-  baseURL: 'http://192.168.1.5:8000/api',
+  baseURL: BASE_URL,
   headers: {
     'Content-Type': 'application/json',
   },
