@@ -154,7 +154,7 @@ npx react-native run-android
 ## 🎥 Demo Video
 Add your demo video link here:
 ```
-https://drive.google.com/...
+(https://drive.google.com/file/d/1_MrpAMAGIOWU4VXbyihH9B9_u129f4AW/view?usp=drive_link)
 ```
 
 ---
