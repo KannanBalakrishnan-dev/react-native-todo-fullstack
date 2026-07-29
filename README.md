@@ -162,7 +162,7 @@ https://drive.google.com/...
 ## 📦 APK
 Download the APK:
 ```
-https://drive.google.com/...
+[https://drive.google.com/...](https://www.linkedin.com/in/kannan-balakrishnan-409911282/)
 ```
 
 ---
