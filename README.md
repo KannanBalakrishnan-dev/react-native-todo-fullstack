@@ -111,6 +111,9 @@ MONGO_URI=YOUR_MONGODB_CONNECTION_STRING
 JWT_SECRET=YOUR_SECRET_KEY
 ```
 
+The live backend for this project is deployed on Render:
+**[https://todo-backend-y074.onrender.com](https://todo-backend-y074.onrender.com)**
+
 ### Mobile Setup
 ```bash
 cd mobile
@@ -152,18 +155,14 @@ npx react-native run-android
 ---
 
 ## 🎥 Demo Video
-Add your demo video link here:
-```
-(https://drive.google.com/file/d/1_MrpAMAGIOWU4VXbyihH9B9_u129f4AW/view?usp=drive_link)
-```
+
+[Watch the demo](https://drive.google.com/file/d/1_MrpAMAGIOWU4VXbyihH9B9_u129f4AW/view?usp=drive_link)
 
 ---
 
 ## 📦 APK
-Download the APK:
-```
-(https://drive.google.com/drive/folders/1Ob6YbG16eIAUfjnur9YO0Ep7SL_tJg1B?usp=drive_link)
-```
+
+[Download the APK](https://drive.google.com/drive/folders/1Ob6YbG16eIAUfjnur9YO0Ep7SL_tJg1B?usp=drive_link)
 
 ---
 
@@ -172,7 +171,8 @@ Download the APK:
 **Kannan Balakrishnan**
 
 - GitHub: [KannanBalakrishnan-dev](https://github.com/KannanBalakrishnan-dev)
-- LinkedIn:(https://www.linkedin.com/in/kannan-balakrishnan-409911282/)
+- LinkedIn: [Kannan Balakrishnan](https://www.linkedin.com/in/kannan-balakrishnan-409911282/)
+
 ---
 
 ## 📄 License
